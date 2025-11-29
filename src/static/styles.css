@@ -178,6 +178,22 @@ footer {
   text-overflow: ellipsis;
 }
 
+.participant-badge .participant-delete {
+  background: transparent;
+  border: none;
+  color: #b00020;
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0 6px;
+  border-radius: 50%;
+}
+
+.participant-badge .participant-delete:hover {
+  background: rgba(176,0,32,0.08);
+}
+
 @media (max-width: 480px) {
   .participant-badge {
     font-size: 12px;
